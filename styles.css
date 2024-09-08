@@ -1,0 +1,39 @@
+body {
+    background-color: #b5b5b5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #7b7b7b;
+    text-decoration: none;
+}
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+.about, .projects, .contact, .education {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.projects {
+    margin-bottom: 1rem;
+}
+.project {
+    margin-bottom: 2rem;
+}
