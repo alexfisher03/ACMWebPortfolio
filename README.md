@@ -14,7 +14,7 @@
 1. Pull the code from this repository onto your local device
     - ***Either copy and paste or git clone https://github.com/alexfisher03/ACMWebPortfolio.git***
 
-2. Create a reository named ```porfolio``` or anything else you want
+2. Create a repository yourself named ```porfolio``` or anything else you want
     - Complete your own project inside of this repository
     - ***Make sure you have the three files inside of the ```/portfolio``` directory***
         1. ***index.html***
