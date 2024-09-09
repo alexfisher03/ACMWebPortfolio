@@ -1,39 +1,64 @@
+/* General styles for the entire document */
 body {
-    background-color: #b5b5b5;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: #b5b5b5; /* Light grey background color */
+    font-family: Arial, sans-serif; /* Default font style */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total w and h */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
 }
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #2c2c2c; /* Dark grey background color */
+    color: #fff; /* White text color for better contrast */
+}
+
+/* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+    display: flex; /* Flexbox for layout */ 
+    justify-content: center; /* Space between the title and the toggle text */
+    align-items: center; /* Center vertically */
+    background-color: #353535; /* Dark grey background color for header */
+    color: #fff; /* White text color */
+    padding-top: 1.5rem; /* Padding inside the header */
 }
-nav ul {
-    list-style: none;
-    padding: 0;
+
+/* Theme toggle text styles */
+.theme-toggle {
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    text-decoration: underline; /* Underlines the text to indicate it is clickable */
+    color: #fff; /* White text color */
+    font-size: 1rem; /* Font size of the toggle text */
 }
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
+
+.theme-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: end; /* Aligns the toggle text to the right */
+    background-color: #353535; /* Dark grey background color for header */
+    color: #fff; /* White text color */
+    padding-bottom: 1rem; /* Padding inside theme container */
+    padding-right: 3rem; /* Padding on the right side of the theme container */
 }
-nav ul li a {
-    color: #7b7b7b;
-    text-decoration: none;
-}
+
+/* General section styles */
 section {
-    padding: 2rem;
-    margin: 1rem 0;
+    padding: 2rem; /* Padding inside each section */
+    margin: 1rem 0; /* Adds margin above and below each section */
 }
+
+/* Styles for specific sections */
 .about, .projects, .contact, .education {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px; /* Maximum width for each section */
+    margin: 0 auto; /* Centers the sections horizontally */
 }
+
+/* Specific styles for the projects section */
 .projects {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; /* Adds margin below the projects section */
 }
+
+/* Styles for individual project items */
 .project {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Adds margin below each project */
 }
