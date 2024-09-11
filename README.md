@@ -13,8 +13,8 @@
 ---
 ### Instructions for hosting using ```Github Pages```
 1. Pull the code from this repository onto your local device
-    - ***Either copy and paste the contents of all three files ***
-    - ***or git clone https://github.com/alexfisher03/ACMWebPortfolio.git***
+    - Either copy and paste the contents of all three files into your own files
+    - ***or you can run git clone https://github.com/alexfisher03/ACMWebPortfolio.git inside of a directory on your computer, through the terminal***
 
 2. Create a repository yourself named ```porfolio``` or anything else you want
     - Complete your own project inside of this repository
