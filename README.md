@@ -6,6 +6,7 @@
 
 ### About
 - This project was designed for beginner web developers to learn the basics of html, css, and javascript in order to build a simple web portfolio
+- With that said, this is a very basic and boiler plate example - we want you to customize and build onto this template!
 
 ### Before doing anything else
 - Make sure to customize this portfolio. Go through it and fill in your own information. This is a template 
