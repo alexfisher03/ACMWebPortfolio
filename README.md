@@ -28,5 +28,5 @@
 
 3. In your repository on github.com, go to ```settings``` then navigate to ```pages``` on the left side. 
     - ***For the ```branch``` setting select ```main```***
-    - ***Once you hit ***```save```***  give it a few minutes but your porfolio will be hosted on ```https://your-username.github.io/portfolio```*** (portfolio is the name of your repository. If you want the portfolio to be hosted on just ```https://your-username.github.io/```, name the repository ```your-username.github.io```)
+    - ***Once you hit ***```save```***  give it a few minutes but your porfolio will be hosted on ```https://your-username.github.io/portfolio```*** (portfolio is the name of your repository. If you want the portfolio to be hosted on just ```https://your-username.github.io/```, name the repository ```your-username.github.io```) ***Reference : https://docs.github.com/en/pages/quickstart***
 
